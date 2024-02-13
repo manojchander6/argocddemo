@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: mysql
+  repository: 348096830755.dkr.ecr.us-east-2.amazonaws.com/tagit
   tag: latest
   pullPolicy: IfNotPresent
 

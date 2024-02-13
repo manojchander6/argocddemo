@@ -1,1 +1,9 @@
+replicaCount: 2
+
+image:
+  repository: 348096830755.dkr.ecr.us-east-2.amazonaws.com/tagit
+  tag: latest
+  pullPolicy: IfNotPresent
+
+mysqlRootPassword: DEVOPS1
 
