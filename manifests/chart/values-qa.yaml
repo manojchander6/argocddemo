@@ -1,1 +1,8 @@
+replicaCount: 1
 
+image:
+  repository: mysql
+  tag: latest
+  pullPolicy: IfNotPresent
+
+mysqlRootPassword: DEVOPS1
