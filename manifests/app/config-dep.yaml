@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mxadmin
-        image: docker push 348096830755.dkr.ecr.us-east-2.amazonaws.com/tagit:config
+        image:  348096830755.dkr.ecr.us-east-2.amazonaws.com/tagit:config
         ports:
         - containerPort: 8080
